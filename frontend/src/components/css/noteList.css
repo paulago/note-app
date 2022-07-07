@@ -1,0 +1,36 @@
+.note-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note-list .note {
+  background-color: rgb(196, 242, 255);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  width: 35rem;
+}
+
+.note .note-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note .note-content {
+  word-wrap: break-word;
+}
+
+@media only screen and (max-width: 900px) {
+  .note-list .note {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .note-list .note {
+    width: 15rem;
+  }
+}

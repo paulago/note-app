@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
+
+header {
+  background: var(--black-chocolate);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Coming Soon", cursive;
+}
+
+ul.header-links-logout,
+ul.header-links-login {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-links-logout li,
+.header-links-login li {
+  padding: 1rem;
+}
+
+.log-out-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}

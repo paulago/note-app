@@ -1,0 +1,30 @@
+:root {
+  --yale-blue: #084887ff;
+  --black-chocolate: rgb(43, 43, 43);
+  --white: #ffffffff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--alice-blue);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+main.app {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: sans-serif;
+}

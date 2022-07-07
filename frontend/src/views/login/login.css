@@ -1,0 +1,49 @@
+.login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px;
+}
+
+.login-section h2 {
+  font-family: "Coming Soon", cursive;
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.login-form fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.login-form label {
+  margin-bottom: 0.5rem;
+  color: #000000;
+}
+
+.login-form input {
+  padding: 0.3rem;
+  outline: none;
+  min-width: 300px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+}
+
+.login-form-button {
+  padding: 8px 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: var(--yale-blue);
+  color: white;
+  display: block;
+  margin-left: 0;
+  font-size: 16px;
+}
+
+.login-form span {
+  color: tomato;
+}
